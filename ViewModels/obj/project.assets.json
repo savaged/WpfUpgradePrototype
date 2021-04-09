@@ -11,10 +11,34 @@
           "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Interfaces": "1.0.0",
           "Microsoft.Toolkit.Mvvm": "7.0.1"
         },
         "compile": {
@@ -49,6 +73,16 @@
         "microsoft.toolkit.mvvm.nuspec"
       ]
     },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -57,6 +91,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Data >= 1.0.0",
       "Microsoft.Toolkit.Mvvm >= 7.0.1",
       "Models >= 1.0.0"
     ]
@@ -92,6 +127,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\Data\\Data.csproj": {
+              "projectPath": "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\Data\\Data.csproj"
+            },
             "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\Models\\Models.csproj": {
               "projectPath": "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\Models\\Models.csproj"
             }

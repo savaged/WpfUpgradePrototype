@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ViewModels;
 
 namespace UpgradePrototype.Views
 {
@@ -23,6 +24,14 @@ namespace UpgradePrototype.Views
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void OnLoaded(object sender, RoutedEventArgs e)
+        {
+            if (DataContext is IViewModel vm)
+            {
+                vm?.Load();
+            }
         }
     }
 }

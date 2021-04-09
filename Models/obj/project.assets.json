@@ -10,6 +10,16 @@
         "runtime": {
           "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
       }
     }
   },
@@ -35,10 +45,16 @@
         "microsoft.toolkit.mvvm.7.0.1.nupkg.sha512",
         "microsoft.toolkit.mvvm.nuspec"
       ]
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Interfaces >= 1.0.0",
       "Microsoft.Toolkit.Mvvm >= 7.0.1"
     ]
   },
@@ -72,7 +88,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\Interfaces\\Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
