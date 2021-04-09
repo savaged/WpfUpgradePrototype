@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GgHKcyc0adsqMuaP7hGZxfC7unL1OdDzc5uGGnzWbPk0ff593tQNs57ggp0RnSHsv+I5w2x1HKAyODtAbAo4qQ==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\UpgradePrototype\\UpgradePrototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidSavage\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\DavidSavage\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.0.1\\microsoft.toolkit.mvvm.7.0.1.nupkg.sha512",
+    "C:\\Users\\DavidSavage\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

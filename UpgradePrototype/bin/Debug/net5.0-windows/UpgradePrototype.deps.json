@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UpgradePrototype/1.0.0": {
+        "dependencies": {
+          "Autofac": "6.1.0",
+          "Microsoft.Toolkit.Mvvm": "7.0.1"
+        },
+        "runtime": {
+          "UpgradePrototype.dll": {}
+        }
+      },
+      "Autofac/6.1.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Microsoft.Toolkit.Mvvm/7.0.1": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1.1"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {}
+    }
+  },
+  "libraries": {
+    "UpgradePrototype/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-22aXncFDye08TsXHobcxAoZFBeaJ9nrAxGzk9YHLLaIkYO7aeAA0Sz7Mii9qsfB76S1gdhebqMv8QsnknJMT/w==",
+      "path": "autofac/6.1.0",
+      "hashPath": "autofac.6.1.0.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.Mvvm/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fTYzwb+uwXQtYW66hMZo6QXfqfbIyqvTZyy7Mc8IZq+ED8nQrsbb+uE8F8Ddc5LZwT3tL1Fw2ep7GxzDrJzP3w==",
+      "path": "microsoft.toolkit.mvvm/7.0.1",
+      "hashPath": "microsoft.toolkit.mvvm.7.0.1.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    }
+  }
+}

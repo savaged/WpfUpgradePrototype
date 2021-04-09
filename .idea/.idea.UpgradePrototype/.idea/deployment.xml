@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ASSURE-SERVER" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ASSURE-SERVER">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/App.xaml" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/App.xaml.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/UpgradePrototype.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/Views/MainWindow.xaml" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/Views/MainWindow.xaml.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/obj/Debug/net5.0-windows/App.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/obj/Debug/net5.0-windows/UpgradePrototype.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/obj/Debug/net5.0-windows/Views/MainWindow.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/UpgradePrototype/test-verivi.ico" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

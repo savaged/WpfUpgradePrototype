@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JtcdsCckZsRUk0LCDTRvbgojDRa8UJoVw+mu56upT4JpNvIyeqgnCZSShMuSpaaUHysh/Q4o5/u/59B3309rQQ==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\David Savage\\Documents\\repos\\UpgradePrototype\\ViewModels\\ViewModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidSavage\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.0.1\\microsoft.toolkit.mvvm.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
