@@ -21,6 +21,7 @@ namespace UpgradePrototype
         {
             var builder = new ContainerBuilder();
             builder.RegisterModule<ViewModelBindings>();
+            builder.RegisterModule<DataBindings>();
             var container = builder.Build();
             
             Current.MainWindow = new MainWindow();
