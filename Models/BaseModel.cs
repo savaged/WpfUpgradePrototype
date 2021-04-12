@@ -1,9 +1,20 @@
 ﻿using Interfaces;
+using Microsoft.Toolkit.Mvvm.ComponentModel;
 
 namespace Models
 {
-    public class BaseModel : IModel
+    public abstract class BaseModel : ObservableObject, IModel
     {
-        public int ID { get; set; }
+        private int _id;
+
+        public int ID
+        {
+            get => _id;
+            set => SetProperty(ref _id, value);
+        }
+
+        public abstract string ToJson();
+
+        public abstract void FromJson(string json);
     }
 }

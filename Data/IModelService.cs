@@ -9,7 +9,10 @@ namespace Data
             where T : IModel;
 
         IEnumerable<T> GetIndex<T>()
-            where T : IModel;
+            where T : IModel, new();
+        
+        T CreateModel<T>()
+            where T : IModel, new();
 
         void StoreModel<T>(T model)
             where T : IModel;
