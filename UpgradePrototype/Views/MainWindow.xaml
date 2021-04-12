@@ -8,7 +8,14 @@
         mc:Ignorable="d"
         Loaded="OnLoaded"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <controls:NewsItemsView DataContext="{Binding NewsItemViewModel}"/>
-    </Grid>
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top" Margin="0,0,0.4,0">
+            <MenuItem Header="_File">
+                <MenuItem Header="Test _Message" Command="{Binding TestMessageCmd}"/>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <controls:NewsItemsView DataContext="{Binding NewsItemViewModel}"/>
+        </Grid>
+    </DockPanel>
 </Window>

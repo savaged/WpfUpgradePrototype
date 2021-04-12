@@ -11,6 +11,8 @@ namespace ViewModels
     public class NewsItemViewModel : BaseViewModel
     {
         private readonly IModelService _modelService;
+        private IList<NewsItem> _index;
+        private NewsItem _modelObject;
         
         public NewsItemViewModel(IModelService modelService)
         {
@@ -25,16 +27,24 @@ namespace ViewModels
         {
             Index = _modelService.GetIndex<NewsItem>()?.ToList();
         }
-        
-        public IList<NewsItem> Index { get; private set; }
-        
-        public NewsItem ModelObject { get; set; }
-        
+
+        public IList<NewsItem> Index
+        {
+            get => _index; 
+            private set => SetProperty(ref _index, value);
+        }
+
+        public NewsItem ModelObject
+        {
+            get => _modelObject;
+            set => SetProperty(ref _modelObject, value);
+        }
+
         public ICommand AddCmd { get; }
         public ICommand EditCmd { get; }
 
         public bool CanAdd => true;
-        public bool CanEdit => ModelObject != null;
+        public bool CanEdit => ModelObject?.ID > 0;
 
         private void OnAdd()
         {

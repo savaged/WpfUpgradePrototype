@@ -20,38 +20,8 @@
                         </ContextMenu>
                     </DataGrid.ContextMenu>
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="HeadingName" Binding="{Binding HeadingName}" Width="1*">
-                            <DataGridTextColumn.ElementStyle>
-                                <Style>
-                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
-                                    <Setter Property="TextBlock.FontWeight" Value="DemiBold"/>
-                                    <Style.Triggers>
-                                        <DataTrigger Value="True" Binding="{Binding IsHighlighted}">
-                                            <Setter Property="TextBlock.Foreground" Value="Tomato"/>
-                                            <Setter Property="TextBlock.FontSize" Value="20"/>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </DataGridTextColumn.ElementStyle>
-                        </DataGridTextColumn>
-                        <DataGridTextColumn Header="Content" Binding="{Binding Content}" Width="3*">
-                            <DataGridTextColumn.ElementStyle>
-                                <Style>
-                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
-                                    <Setter Property="TextBlock.FontFamily" Value="Courier New"/>
-                                    <Style.Triggers>
-                                        <DataTrigger Value="True" Binding="{Binding IsHighlighted}">
-                                            <Setter Property="TextBlock.Foreground" Value="Tomato"/>
-                                            <Setter Property="TextBlock.FontSize" Value="20"/>
-                                        </DataTrigger>
-                                        <DataTrigger Value="False" Binding="{Binding IsHighlighted}">
-                                            <Setter Property="TextBlock.Foreground" Value="Black"/>
-                                            <Setter Property="TextBlock.FontSize" Value="16"/>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </DataGridTextColumn.ElementStyle>
-                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Headline" Binding="{Binding Headline}" Width="1*"/>
+                        <DataGridTextColumn Header="Story" Binding="{Binding Story}" Width="3*"/>
                     </DataGrid.Columns>
             </DataGrid>
     </Grid>
